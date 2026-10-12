@@ -161,7 +161,7 @@ export default function Footer({ onNavigate }: FooterProps) {
         {/* Legal bar */}
         <div className="pt-6 border-t border-white/10 flex flex-col sm:flex-row justify-between items-center gap-4 text-xs text-slate-400">
           <div>
-            Copyright © {new Date().getFullYear()} Colchones BEDER. Todos los derechos reservados.
+            Copyright © {new Date().getFullYear()} Colchones BEDER. Todos los derechos reservados. Desarrollado por [102 Studio]
           </div>
           <div className="flex items-center gap-4">
             <a href="#contacto" className="hover:text-white transition-colors">
